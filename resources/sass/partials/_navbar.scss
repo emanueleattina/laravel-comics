@@ -1,0 +1,47 @@
+nav {
+    .navbar-top {
+        background: $brand-detail;
+        .navbar-top-container {
+            color: $bianco;
+            text-transform: uppercase;
+            padding: 5px 0;
+            display: flex;
+            justify-content: flex-end;
+            span {
+                margin-left: 50px;
+                font-size: 0.75em;
+                font-weight: 500;
+            }
+        }
+    }
+    .navbar-bottom {
+        background-color: $bianco;
+        .navbar-bottom-container {
+            text-transform: uppercase;
+            padding: 15px 0;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            .logo {
+                img {
+                    height: 60px;
+                    vertical-align: middle;
+                }
+            }
+            .menu-list {
+                ul {
+                    display: flex;
+                    font-weight: 600;
+                    list-style: none;
+                    li {
+                        a {
+                            color: $brand-text;
+                            text-decoration: none;
+                            margin: 0 15px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
