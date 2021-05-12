@@ -29,17 +29,38 @@ nav {
                 }
             }
             .menu-list {
+                height: 100%;
                 ul {
                     display: flex;
                     font-weight: 600;
                     list-style: none;
+                    height: 100%;
                     li {
+                        height: 100%;
                         a {
                             color: $brand-text;
                             text-decoration: none;
-                            margin: 0 15px;
+                            margin-left: 15px;
+                            margin-right: 15px;
+                            padding-bottom: 32px;
+                            height: 100%;
+                            &.active {
+                                color: $brand-detail;
+                                border-bottom: 4px solid $brand-detail;
+                            }
                         }
                     }
+                }
+            }
+            .searchbar {
+                border-bottom: 2px solid $brand-detail;
+                text-align: right;
+                input {
+                    width: 100px;
+                }
+                ::placeholder {
+                    text-align: right;
+                    color: $brand-text
                 }
             }
         }
