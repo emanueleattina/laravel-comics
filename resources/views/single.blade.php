@@ -12,7 +12,6 @@
                         <span>view gallery</span>
                     </div>
                     <img src="{{$comic['thumb']}}" alt="">
-                    
                 </div>
             </div>
         </div>
@@ -41,6 +40,71 @@
                             <img src="/img/adv.jpg" alt="">
                         </div>
                     </div>
+                </div>
+            </div>
+        </div>
+        <div class="comic-spec-section">
+            <div class="container">
+                <div class="row mar-15">
+                    <div class="col-6 pad-15">
+                        <div class="rows-container">
+                            <h1>Talent</h1>
+                            <div class="row border-top">
+                                <div class="col-5">
+                                    <span class="title-spec">Art By</span>
+                                </div>
+
+                                <div class="col-7">
+                                    <span class="descr-spec"><a>Name Surname</a></span>
+                                </div>
+                            </div>
+                            <div class="row border-top border-bottom">
+                                <div class="col-5">
+                                    <span class="title-spec">Written by:</span>
+                                </div>
+
+                                <div class="col-7">
+                                    <span class="descr-spec"><a>Name Surname</a></span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+
+                    <div class="col-6 pad-15">
+                        <div class="rows-container">
+                            <h1>Specs</h1>
+                            <div class="row border-top">
+                                <div class="col-5">
+                                    <span class="title-spec">Series:</span>
+                                </div>
+
+                                <div class="col-7">
+                                    <span class="text-uppercase"><a>{{$comic['series']}}</a></span>
+                                </div>
+                            </div>
+                            <div class="row border-top">
+                                <div class="col-5">
+                                    <span class="title-spec">U.S. Price:</span>
+                                </div>
+
+                                <div class="col-7">
+                                    <span class="descr-spec">{{$comic['price']}}</span>
+                                </div>
+                            </div>
+                            <div class="row border-top border-bottom">
+                                <div class="col-5">
+                                    <span class="title-spec">On Sale Date:</span>
+                                </div>
+
+                                <div class="col-7">
+                                    <span class="descr-spec">{{$comic['sale_date']}}</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+
                 </div>
             </div>
         </div>

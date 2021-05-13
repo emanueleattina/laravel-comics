@@ -680,6 +680,43 @@ nav .navbar-bottom .navbar-bottom-container .searchbar ::placeholder {
 .section-single-comic .comic-info-section .advertising img {
   margin-top: 7px;
 }
+.section-single-comic .comic-spec-section {
+  background: #F6F6F6;
+  padding: 30px 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+.section-single-comic .comic-spec-section .rows-container {
+  padding: 20px 0;
+}
+.section-single-comic .comic-spec-section .rows-container h1 {
+  color: #1C1C1C;
+  margin-bottom: 30px;
+}
+.section-single-comic .comic-spec-section .rows-container .title-spec {
+  color: #1C1C1C;
+  opacity: 0.8;
+  font-weight: 500;
+  font-size: 0.85em;
+}
+.section-single-comic .comic-spec-section .rows-container .title-spec a {
+  color: #0282F9;
+}
+.section-single-comic .comic-spec-section .rows-container .descr-spec {
+  color: #1C1C1C;
+  opacity: 0.7;
+  font-weight: 500;
+  font-size: 0.85em;
+}
+.section-single-comic .comic-spec-section .rows-container .descr-spec a {
+  color: #0282F9;
+}
+.section-single-comic .comic-spec-section .rows-container .border-top {
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 10px 0;
+}
+.section-single-comic .comic-spec-section .rows-container .border-bottom {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
 
 .footer-top {
   background: url("../img/footer-bg.jpg");
