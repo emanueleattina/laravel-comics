@@ -63,10 +63,10 @@
     .cover-section {
         background: $brand-detail;
         position: relative;
-        height: 80px;
+        height: 65px;
         .cover {
             position: absolute;
-            bottom: 25px;
+            bottom: 20px;
             border: 2px solid $bianco;
             .type {
                 padding: 3px;
@@ -104,6 +104,56 @@
                 width: 100%;
             }
         }
-        
+    }
+    .comic-info-section {
+        padding: 50px 0;
+        h1 {
+            color: $brand-text;
+            margin-top: 10px;
+        }
+        .green-nav {
+            background: $green;
+            display: flex;
+            justify-content: space-between;
+            color: #BAFD9C;
+            margin-top: 20px;
+            border-bottom: 1px solid #357739;
+            .green-nav-left {
+                display: flex;
+                justify-content: space-between;
+                padding: 20px 25px;
+                width: 100%;
+                border-right: 1px solid #357739;
+                .price {
+                    color: $bianco;
+                }
+            }
+            .green-nav-right {
+                margin: auto;
+                text-align: center;
+                padding: 20px 25px;
+                color: $bianco;
+            }
+        }
+        .comic-description {
+            margin-top: 15px;
+            p {
+                color: $footer-grey;
+                opacity: 0.7;
+            }
+        }
+        .advertising {
+            padding-left: 30px;
+            text-align: right;
+            text-transform: uppercase;
+            color: $brand-text;
+            span {
+                opacity: 0.75;
+                font-weight: 500;
+            }
+            img {
+                margin-top: 7px
+            }
+        }
     }
 }
