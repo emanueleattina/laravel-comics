@@ -37,6 +37,30 @@
                     <span>digital comics</span>
                 </div>
             </div>
+            <div class="col-5">
+                <div class="menu-card">
+                    <img src="/img/buy-comics-merchandise.png" alt="">
+                    <span>digital comics</span>
+                </div>
+            </div>
+            <div class="col-5">
+                <div class="menu-card">
+                    <img src="/img/buy-comics-subscriptions.png" alt="">
+                    <span>digital comics</span>
+                </div>
+            </div>
+            <div class="col-5">
+                <div class="menu-card">
+                    <img src="/img/buy-comics-shop-locator.png" alt="">
+                    <span>digital comics</span>
+                </div>
+            </div>
+            <div class="col-5">
+                <div class="menu-card">
+                    <img src="/img/buy-dc-power-visa.svg" alt="">
+                    <span>digital comics</span>
+                </div>
+            </div>
         </div>
     </div>
 </section>

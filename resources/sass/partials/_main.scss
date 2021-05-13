@@ -45,8 +45,18 @@
     background: $brand-detail;
     padding: 40px 0;
     .menu-card {
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding: 0 15px;
         img {
             height: 50px;
+            max-width: 50px;
+        }
+        span {
+            color: $bianco;
+            text-transform: uppercase;
         }
     }
 }

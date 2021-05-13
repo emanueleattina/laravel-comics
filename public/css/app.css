@@ -548,6 +548,18 @@ nav .navbar-bottom .navbar-bottom-container .searchbar ::placeholder {
   background: #0282F9;
   padding: 40px 0;
 }
+.section-menu .menu-card {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0 15px;
+}
 .section-menu .menu-card img {
   height: 50px;
+  max-width: 50px;
+}
+.section-menu .menu-card span {
+  color: #fff;
+  text-transform: uppercase;
 }
