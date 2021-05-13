@@ -50,3 +50,7 @@ $breakpoints: default, sm, md, lg;
         }
     } 
 }
+
+.col-1-5 {
+    width: calc(100% / 12 * 1.5);
+}

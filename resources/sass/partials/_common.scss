@@ -61,3 +61,13 @@
     font-weight: 700;
     cursor: pointer;
 }
+
+.btn-footer {
+    text-transform: uppercase;
+    padding: 15px;
+    color: $bianco;
+    background: none;
+    border: 2px solid $brand-detail;
+    font-weight: 800;
+    cursor: pointer;
+}
