@@ -578,6 +578,58 @@ nav .navbar-bottom .navbar-bottom-container .searchbar ::placeholder {
   text-transform: uppercase;
 }
 
+.section-single-comic .cover-section {
+  background: #0282F9;
+  position: relative;
+  height: 80px;
+}
+.section-single-comic .cover-section .cover {
+  position: absolute;
+  bottom: 25px;
+  border: 2px solid #fff;
+}
+.section-single-comic .cover-section .cover .type {
+  padding: 3px;
+  background: #00A9D9;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  text-transform: uppercase;
+}
+.section-single-comic .cover-section .cover .type span {
+  color: #fff;
+  font-size: 0.75em;
+}
+.section-single-comic .cover-section .cover .view-gallery {
+  padding: 3px;
+  background: #00A9D9;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: -1px;
+  text-transform: uppercase;
+}
+.section-single-comic .cover-section .cover .view-gallery span {
+  color: #fff;
+  font-size: 0.75em;
+}
+.section-single-comic .cover-section .cover img {
+  height: 100%;
+  width: 100%;
+}
+
 .footer-top {
   background: url("../img/footer-bg.jpg");
   background-repeat: no-repeat;

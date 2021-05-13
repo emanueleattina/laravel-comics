@@ -58,3 +58,52 @@
         }
     }
 }
+
+.section-single-comic {
+    .cover-section {
+        background: $brand-detail;
+        position: relative;
+        height: 80px;
+        .cover {
+            position: absolute;
+            bottom: 25px;
+            border: 2px solid $bianco;
+            .type {
+                padding: 3px;
+                background: $brand-detail-due;
+                width: fit-content;
+                height: fit-content;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                position: absolute;
+                text-transform: uppercase;
+                span {
+                    color: $bianco;
+                    font-size: 0.75em;
+                }
+            }
+            .view-gallery {
+                padding: 3px;
+                background: $brand-detail-due;
+                height: fit-content;
+                display: flex;
+                width: 100%;
+                justify-content: center;
+                align-items: center;
+                position: absolute;
+                bottom: -1px;
+                text-transform: uppercase;
+                span {
+                    color: $bianco;
+                    font-size: 0.75em;
+                }
+            }
+            img {
+                height: 100%;
+                width: 100%;
+            }
+        }
+        
+    }
+}
