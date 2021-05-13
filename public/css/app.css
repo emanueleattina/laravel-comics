@@ -116,7 +116,6 @@ p {
     width: calc(100% / 12 * 12);
   }
 }
-
 @media all and (min-width: 768px) {
   .container {
     width: 720px;
@@ -170,7 +169,6 @@ p {
     width: calc(100% / 12 * 12);
   }
 }
-
 @media all and (min-width: 992px) {
   .container {
     width: 960px;
@@ -224,7 +222,6 @@ p {
     width: calc(100% / 12 * 12);
   }
 }
-
 .text-uppercase {
   text-transform: uppercase;
 }
@@ -240,6 +237,10 @@ p {
 
 .row {
   display: flex;
+}
+
+.wrap {
+  flex-wrap: wrap;
 }
 
 .mar-15 {
@@ -412,10 +413,18 @@ p {
   margin-right: 100px;
 }
 
+.btn-brand {
+  background: #0282F9;
+  color: #fff;
+  padding: 10px 45px;
+  text-transform: uppercase;
+  font-weight: 700;
+  cursor: pointer;
+}
+
 nav .navbar-top {
   background: #0282F9;
 }
-
 nav .navbar-top .navbar-top-container {
   color: #fff;
   text-transform: uppercase;
@@ -423,17 +432,14 @@ nav .navbar-top .navbar-top-container {
   display: flex;
   justify-content: flex-end;
 }
-
 nav .navbar-top .navbar-top-container span {
   margin-left: 50px;
   font-size: 0.75em;
   font-weight: 500;
 }
-
 nav .navbar-bottom {
   background-color: #fff;
 }
-
 nav .navbar-bottom .navbar-bottom-container {
   text-transform: uppercase;
   padding: 15px 0;
@@ -441,27 +447,22 @@ nav .navbar-bottom .navbar-bottom-container {
   align-items: center;
   justify-content: space-between;
 }
-
 nav .navbar-bottom .navbar-bottom-container .logo img {
   height: 60px;
   vertical-align: middle;
 }
-
 nav .navbar-bottom .navbar-bottom-container .menu-list {
   height: 100%;
 }
-
 nav .navbar-bottom .navbar-bottom-container .menu-list ul {
   display: flex;
   font-weight: 600;
   list-style: none;
   height: 100%;
 }
-
 nav .navbar-bottom .navbar-bottom-container .menu-list ul li {
   height: 100%;
 }
-
 nav .navbar-bottom .navbar-bottom-container .menu-list ul li a {
   color: #1C1C1C;
   text-decoration: none;
@@ -470,33 +471,83 @@ nav .navbar-bottom .navbar-bottom-container .menu-list ul li a {
   padding-bottom: 32px;
   height: 100%;
 }
-
 nav .navbar-bottom .navbar-bottom-container .menu-list ul li a.active {
   color: #0282F9;
   border-bottom: 4px solid #0282F9;
 }
-
 nav .navbar-bottom .navbar-bottom-container .searchbar {
   border-bottom: 2px solid #0282F9;
   text-align: right;
 }
-
 nav .navbar-bottom .navbar-bottom-container .searchbar input {
   width: 100px;
 }
-
 nav .navbar-bottom .navbar-bottom-container .searchbar ::-moz-placeholder {
   text-align: right;
   color: #1C1C1C;
 }
-
 nav .navbar-bottom .navbar-bottom-container .searchbar :-ms-input-placeholder {
   text-align: right;
   color: #1C1C1C;
 }
-
 nav .navbar-bottom .navbar-bottom-container .searchbar ::placeholder {
   text-align: right;
   color: #1C1C1C;
 }
 
+.jumbo {
+  background: url("../img/jumbotron.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  height: 400px;
+}
+
+.section-comics {
+  background: #1C1C1C;
+}
+.section-comics .section-title {
+  background: #0282F9;
+  padding: 10px 25px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  position: relative;
+  top: -25px;
+}
+.section-comics .section-title h1 {
+  color: #fff;
+  text-transform: uppercase;
+}
+.section-comics .comics-container {
+  text-align: center;
+  padding-bottom: 20px;
+}
+.section-comics .comics-container a {
+  color: #fff;
+  text-decoration: none;
+}
+.section-comics .comics-container a .card .card-image {
+  width: 100%;
+  overflow: hidden;
+}
+.section-comics .comics-container a .card .card-image img {
+  width: 100%;
+}
+.section-comics .comics-container a .card .card-descr {
+  text-transform: uppercase;
+  margin-top: 10px;
+  text-align: left;
+}
+.section-comics .comics-container a .card .card-descr h4 {
+  font-weight: 400;
+  font-size: 0.85em;
+}
+
+.section-menu {
+  background: #0282F9;
+  padding: 40px 0;
+}
+.section-menu .menu-card img {
+  height: 50px;
+}

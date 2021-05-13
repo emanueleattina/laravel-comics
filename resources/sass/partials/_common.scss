@@ -15,6 +15,10 @@
     display: flex;
 }
 
+.wrap {
+    flex-wrap: wrap;
+}
+
 .mar-15 {
     margin-right: -15px;
     margin-left: -15px;
@@ -47,4 +51,13 @@
     .mr-#{$i}0 {
         margin-right: 10px * $i;
     }
+}
+
+.btn-brand {
+    background: $brand-detail;
+    color: $bianco;
+    padding: 10px 45px;
+    text-transform: uppercase;
+    font-weight: 700;
+    cursor: pointer;
 }

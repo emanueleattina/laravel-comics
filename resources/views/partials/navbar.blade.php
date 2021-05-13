@@ -11,12 +11,12 @@
         <div class="container">
             <div class="navbar-bottom-container">
                 <div class="logo">
-                    <img src="img/dc-logo.png" alt="">
+                    <img src="/img/dc-logo.png" alt="">
                 </div>
                 <div class="menu-list">
                     <ul>
                         <li><a href="#">characters</a></li>
-                        <li><a href="#" class="active">comics</a></li>
+                        <li><a href="/" class="active">comics</a></li>
                         <li><a href="#">movies</a></li>
                         <li><a href="#">tv</a></li>
                         <li><a href="#">games</a></li>
