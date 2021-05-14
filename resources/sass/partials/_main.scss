@@ -147,12 +147,16 @@
             text-align: right;
             text-transform: uppercase;
             color: $brand-text;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
             span {
                 opacity: 0.75;
                 font-weight: 500;
             }
             img {
-                margin-top: 7px
+                margin-top: 7px;
+                width: 300px;
             }
         }
     }
@@ -162,6 +166,9 @@
         border-top: 1px solid rgba($color: #000000, $alpha: 0.1);
         .rows-container {
             padding: 20px 0;
+            a {
+                color: $brand-detail;
+            }
             h1 {
                 color: $brand-text;
                 margin-bottom: 30px;
@@ -191,7 +198,6 @@
             .border-bottom {
                 border-bottom: 1px solid rgba($color: #000000, $alpha: 0.1);
             }
-        }
-        
+        }        
     }
 }

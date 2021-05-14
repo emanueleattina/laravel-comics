@@ -55,7 +55,12 @@
                                 </div>
 
                                 <div class="col-7">
-                                    <span class="descr-spec"><a>Name Surname</a></span>
+                                    @foreach ($comic['artists'] as $artist)
+                                        <span class="descr-spec"><a>{{$artist}}</a></span>
+                                        @if (!$loop->last)
+                                            <span>,</span>
+                                        @endif
+                                    @endforeach
                                 </div>
                             </div>
                             <div class="row border-top border-bottom">
@@ -64,7 +69,12 @@
                                 </div>
 
                                 <div class="col-7">
-                                    <span class="descr-spec"><a>Name Surname</a></span>
+                                    @foreach ($comic['writers'] as $writer)
+                                        <span class="descr-spec"><a>{{$writer}}</a></span>
+                                        @if (!$loop->last)
+                                            <span>,</span>
+                                        @endif
+                                    @endforeach
                                 </div>
                             </div>
                         </div>
